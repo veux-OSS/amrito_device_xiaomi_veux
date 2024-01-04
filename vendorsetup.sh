@@ -13,3 +13,9 @@ git clone --depth=1 https://github.com/LineageOS/android_hardware_xiaomi hardwar
 echo "Cloning Kernel"
 # Kernel
 git clone https://github.com/PaimonLab/kernel_xiaomi_veux.git kernel/xiaomi/veux
+
+echo "Cloning MIUI Camera..."
+# MIUI Camera
+git clone https://github.com/Amrito-Projects/vendor_xiaomi_miuicamera-veux.git vendor/xiaomi/miuicamera-veux
+git clone https://github.com/Amrito-Projects/vendor_xiaomi_miuicamera.git vendor/xiaomi/miuicamera
+echo "Completed, proceeding to lunch"
